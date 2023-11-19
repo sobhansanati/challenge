@@ -55,7 +55,7 @@ def sync_subtitles(subtitle_file1, subtitle_file2, output_file):
 # File haye subtitle va khoroji an 
 SF1 = "de_70105212.vtt"
 SF1 = "en_70105212.vtt"
-output_file = "Sobhansanati(SyncedSubtitles).vtt"
+output_file = "Sobhansanati(SyncedSubtitles).csv"
     
 sync_subtitles(SF1,SF1,output_file)
 print(f"Synced subtitles written to {output_file}")
